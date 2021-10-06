@@ -1,9 +1,6 @@
 # Welcome
-
-## Where are you?
-Welcome to the PaddeCraft Markdown Server.  
-Here your Webpages are written in Markdown
----
+Welcome to my Markdown to HTML converter.  
+It includes CSS, Codehilite, and custom embeds.
 ## Code
 Code is highlighted.  
 You only need to indent it by four spaces.  
@@ -24,11 +21,8 @@ Is going to be:
 ## Embeds
 Use
     [YT] 2J7xlDH4QkA 420 315
+    >> [YT] <Vid-ID> <width> <hight>
 to make this
 [YT] 2J7xlDH4QkA 420 315
----
-## Software
-For this Server i use Flask, Pygments, random, markdown,  
-os and pathlib.
 
 # Enjoy
