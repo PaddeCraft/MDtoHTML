@@ -13,7 +13,7 @@ e.g. Embed Youtube videos. You can see how that works in the test.html file.\
 
 ### Usage/Examples
 
-mdtohtml(Markdown, title, CSS, includecss)
+`mdtohtml(<Markdown>, <title>, <CSS>, <includeCSS>)`\\
 
 ``` Python
 from mdtohtml import mdtohtml as mdhtml
