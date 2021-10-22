@@ -15,7 +15,8 @@ e.g. Embed Youtube videos. You can see how that works in the test.html file.\
 
 mdtohtml(Markdown, title, CSS, includecss)
 
-```from mdtohtml import mdtohtml as mdhtml
+``` Python
+from mdtohtml import mdtohtml as mdhtml
 
 with open("index.md", "r") as inp: # open the input file
     with open("index.html", "w+") as out: # open the output file
