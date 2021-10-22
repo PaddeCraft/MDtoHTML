@@ -9,11 +9,11 @@ After downloading you can install all required modules using
 The codehilite existension of Python-Markdown is used to color the code
 and the CSS for the code is generated using Pygments.\
 There also are a few extras that you can´t do in Markdown normally,\
-e.g. Embed Youtube videos. You can see how that works in the test.html file.\
+e.g. Embed Youtube videos. You can see how that works in the test.html file.
 
 ### Usage/Examples
 
-`mdtohtml(<Markdown>, <title>, <CSS>, <includeCSS>)`\
+`Python mdtohtml(<Markdown>, <title>, <CSS>, <includeCSS>)`
 
 ``` Python
 from mdtohtml import mdtohtml as mdhtml
