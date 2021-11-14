@@ -20,8 +20,7 @@ mdtohtml(<Markdown>, <title>, <CSS>, <includeCSS>)
 ``` Python
 from mdtohtml import mdtohtml as mdhtml
 
-with open("index.md", "r") as inp: # open the input file
-    with open("index.html", "w+") as out: # open the output file
-        out.write(mdhtml(inp.read(), "MyWebSite", dark, False)) # convert with the title 'MyWebSite',
-                                                                # dark css and no css in the html itself.
+with open("index.md", "r") as inp, open("index.html", "w+") as out: # open the input and output file
+    out.write(mdhtml(inp.read(), "MyWebSite", dark, False)) # convert with the title 'MyWebSite',
+                                                            # dark css and no css in the html itself.
 ```
